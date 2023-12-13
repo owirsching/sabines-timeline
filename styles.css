@@ -1,5 +1,5 @@
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Roboto';
     display: flex;
     justify-content: center;
     font-size: 16px;
@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-size: 35px;
     text-align: right;
-    margin: 15px 0 15px 0;
+    margin: 15px 0 5px 0;
 }
 
 h2:hover {
@@ -42,7 +42,7 @@ h3 {
 }
 
 h5 {
-    font-weight: 300;
+    font-weight: 400;
     margin: 5px 0 5px 0;
     font-size: 16px;
 }
@@ -56,6 +56,7 @@ h5 {
     color: #9c9c9c;
     font-weight: 400;
     margin: 20px 0 20px 0;
+    line-height: 25px;
 }
 
 .instructions {
@@ -91,12 +92,15 @@ h5 {
 
 .date {
     margin: 30px 0px 30px 20px;
-    font-size: 18px;
+    font-size: 25px;
     width: max-content;
+    font-weight: 200;
 }
 
 .subtitle {
     width: max-content;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .event {
@@ -118,10 +122,18 @@ h5 {
 }
 
 .panel {
-    min-height: 700px;
+    height: auto;
     background-color: rgb(230, 230, 230);
     border-radius: 40px;
     padding: 15px 15px 15px 15px;
+}
+
+.text {
+    margin: 30px 20px 20px 20px;
+}
+
+.text .description {
+    color: rgb(47, 47, 47);
 }
 
 #\31 {
@@ -179,4 +191,9 @@ h5 {
     object-fit: cover;
 }
 
+.citation {
+    font-size: 13px;
+    color: gray;
+    line-height: 15px;
+}
  
