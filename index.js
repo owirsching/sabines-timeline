@@ -1,7 +1,7 @@
 
 function onClick(input, name) {
-    let names = ['livy', 'cicero', 'dionysius', 'plutarch', 'ovid', 'virgil', 'dante', 'giambologna', 'gout', 'picasso', 'crowley']
-    for (i = 1; i < 11; i++) {
+    let names = ['livy', 'cicero', 'florus', 'dionysius', 'plutarch', 'ovid', 'virgil', 'dante', 'giambologna', 'gout', 'picasso', 'crowley']
+    for (i = 1; i < 13; i++) {
         document.getElementById(i.toString()).style.display = "none";
     }
 

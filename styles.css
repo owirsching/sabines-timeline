@@ -8,7 +8,7 @@ body {
 .site-wrapper {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     margin-top: 30px;
 }
 
@@ -76,7 +76,7 @@ h5 {
 }
 
 .line {
-    height: 2000px;
+    height: 2800px;
     width: 3px;
     background-color: black;
 }
@@ -166,6 +166,10 @@ h5 {
 
 #\31\31 {
     margin-top: 1550px;
+}
+
+#\31\32 {
+    margin-top: 1650px;
 }
 
 .panel img {
