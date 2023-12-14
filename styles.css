@@ -13,8 +13,8 @@ body {
 }
 
 .top-section {
-    height: 60vh;
-    width: 60%
+    height: 70vh;
+    width: 80%
 }
 
 h1 {
@@ -53,7 +53,7 @@ h5 {
 
 .description {
     font-size: 16px;
-    color: #9c9c9c;
+    color: #797979;
     font-weight: 400;
     margin: 20px 0 20px 0;
     line-height: 25px;
